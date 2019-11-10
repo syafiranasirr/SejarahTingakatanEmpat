@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "474864857391",
+    "firebase_url": "https://sejarahtingkatanempat.firebaseio.com",
+    "project_id": "sejarahtingkatanempat",
+    "storage_bucket": "sejarahtingkatanempat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:474864857391:android:3044aad04462620e31b1da",
+        "android_client_info": {
+          "package_name": "com.spm.sejarahtingkatanempat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "474864857391-9vk9n8aen8tg7ahr6hmj9ki3etk8v3ml.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.spm.sejarahtingkatanempat",
+            "certificate_hash": "47e2b48117cb4712dcd46b3c4c9266d01d3443e4"
+          }
+        },
+        {
+          "client_id": "474864857391-gpvsis9om7l244cd3ede6kvj5hbrmc5j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFqF76QMDDDpd0Srn3CmV7cPanZ1vQBHA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "474864857391-gpvsis9om7l244cd3ede6kvj5hbrmc5j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

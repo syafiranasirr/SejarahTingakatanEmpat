@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".uploadPDFTeacher"
+    android:padding="30dp"
+    android:background="@drawable/bgmenu">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvExtraNotes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Extra Notes"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-condensed-light"
+            android:layout_marginTop="20dp"
+            android:textColor="#fff"/>
+
+        <ImageView
+            android:id="@+id/fileuploadpreview"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_below="@+id/tvExtraNotes"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/uploadfile" />
+
+        <EditText
+            android:id="@+id/txt_pdfName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fileuploadpreview"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:hint="Enter File Description Here"
+            android:textColorHint="#fff"
+            android:textSize="22sp"
+            android:textColor="#fff"/>
+
+        <Button
+            android:id="@+id/btnFileUpload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_pdfName"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="207dp"
+            android:layout_marginBottom="0dp"
+            android:text="Upload File"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnViewUploadFile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/btnFileUpload"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="76dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="0dp"
+            android:text="View Uploaded File"
+            android:textSize="18sp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/btnFileUpload"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="76dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="0dp"
+            android:text="View Uploaded File"
+            android:textSize="18sp"
+            android:onClick="btn_action"/>
+
+
+    </RelativeLayout>
+</ScrollView>
