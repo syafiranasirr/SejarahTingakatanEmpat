@@ -1,12 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:background="@drawable/bg1">
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity"
+android:background="@drawable/bg1"
+app:cardCornerRadius="10dp"
+android:orientation="vertical">
+
+
+    <!--   <Button
+        android:id="@+id/lbtnAdmin"
+        android:layout_width="196dp"
+        android:layout_height="79dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="98dp"
+        android:layout_marginLeft="98dp"
+        android:layout_marginTop="461dp"
+        android:text="Admin"
+        android:background="@drawable/button_rectangle"/> -->
 
     <ImageView
         android:id="@+id/imageView2"
@@ -31,16 +47,16 @@
 
     <Button
         android:id="@+id/lbtnTeacher"
-        android:layout_width="150dp"
-        android:layout_height="79dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="236dp"
-        android:layout_marginLeft="236dp"
-        android:layout_marginTop="543dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="481dp"
         android:background="@drawable/button_round"
-        android:text="Teacher" />
+        android:text="Register an account" />
 
     <Button
         android:id="@+id/lbtnStudent"
@@ -49,14 +65,14 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="32dp"
-        android:layout_marginLeft="32dp"
-        android:layout_marginTop="553dp"
+        android:layout_marginStart="133dp"
+        android:layout_marginLeft="133dp"
+        android:layout_marginTop="370dp"
         android:background="@drawable/button_round"
-        android:text="Student" />
-
+        android:text="Log In" />
 
 </RelativeLayout>
+
 
 
 

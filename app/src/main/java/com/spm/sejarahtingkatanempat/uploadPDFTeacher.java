@@ -33,6 +33,11 @@ public class uploadPDFTeacher extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_upload_pdfteacher);
+
+    }
+}
+
+     /*
         editPdfName = (EditText) findViewById(R.id.txt_pdfName);
         btnuploadFile = (Button) findViewById(R.id.btnFileUpload);
 
@@ -101,4 +106,4 @@ public class uploadPDFTeacher extends AppCompatActivity {
     }
 
 
-}
+}*/

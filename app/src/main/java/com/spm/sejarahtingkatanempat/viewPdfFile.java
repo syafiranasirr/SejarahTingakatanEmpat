@@ -1,4 +1,4 @@
-package com.spm.sejarahtingkatan4;
+package com.spm.sejarahtingkatanempat;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -36,6 +36,10 @@ public class viewPdfFile extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_view_pdf_file);
 
+    }
+}
+/*
+
         pdflistview = (ListView) findViewById(R.id.pdflistview);
 
 
@@ -70,7 +74,7 @@ public class viewPdfFile extends AppCompatActivity {
                  TextView myText =(TextView) view.findViewById(android.R.id.text1);
                  myText.setTextColor(Color.BLACK);
 
-                 //return super.getView(position,convertView,parent);
+                 return super.getView(position,convertView,parent);
 
                  return view;
 
@@ -110,4 +114,4 @@ public class viewPdfFile extends AppCompatActivity {
     }
 
 
-}
+}*/
