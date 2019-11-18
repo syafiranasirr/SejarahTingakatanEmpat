@@ -108,6 +108,8 @@ public class loginStudent extends AppCompatActivity {
                 {
                     student usersData = dataSnapshot.child(parentDbName).child(id).getValue(student.class);
 
+                    usersData.setId(id);
+
                     if (usersData.getId().equals(id))
                     {
                         if (usersData.getPassword().equals(password))
